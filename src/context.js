@@ -24,8 +24,8 @@ class ProductProvider extends Component {
     handleDetail = () =>{
         console.log('handle details')
     }
-    addToCart = () =>{
-        console.log('add to cart')
+    addToCart = (id) =>{
+        console.log('add to cart from ' + id)
     }
   render() {
     console.log(this.state);
