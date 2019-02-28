@@ -129,7 +129,6 @@ class ProductProvider extends Component {
         })
     }
   render() {
-    console.log(this.state);
     return (
       <ProductContext.Provider value={{
           ...this.state,
